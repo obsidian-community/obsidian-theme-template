@@ -411,7 +411,14 @@ a.tag {} /*Reading Mode*/
 
 /*--Footnotes--*/
 
-.markdown-preview-view .footnotes {} /*Reading View*/
+/*Footnote link in note*/
+.markdown-preview-view a.footnote-link {} /*Reading View*/
 
 /*Reference Number in text*/
-.cm-s-obsidian span.cm-footref { /*Editing View*/
+.cm-s-obsidian span.cm-footref {} /*Editing View*/
+
+/*Footnotes section at the bottom of the note*/
+.markdown-preview-view .footnotes {} /*Reading View*/
+
+/*Footnote back ref (arrow) at the bottom of the note*/
+.footnote-backref {} /*Reading View*/
