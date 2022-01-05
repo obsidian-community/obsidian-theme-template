@@ -407,3 +407,65 @@ a.tag {} /*Reading Mode*/
 /*Embed Link*/
 .markdown-embed-link {}
 .file-embed-link {}
+
+
+/*--Footnotes--*/
+
+/*Footnote link in note*/
+.markdown-preview-view a.footnote-link {} /*Reading View*/
+
+/*Reference Number in text*/
+.cm-s-obsidian span.cm-footref {} /*Editing View*/
+
+/*Footnotes section at the bottom of the note*/
+.markdown-preview-view .footnotes {} /*Reading View*/
+
+/*Footnote back ref (arrow) at the bottom of the note*/
+.footnote-backref {} /*Reading View*/
+
+
+/*--Graph--*/
+
+.graph-view.color-fill {
+	color: var(--text-muted); /*color of nodes*/
+}
+.graph-view.color-fill-focused { /*color of focused node/note*/
+	color: #ffdd00;
+}
+.theme-dark .graph-view.color-fill-tag { /*light mode tag color*/
+	color: #704214;
+}
+.theme-light .graph-view.color-fill-tag { /*dark mode tag color*/
+	color: #E0D3AF;
+}
+.theme-dark .graph-view.color-fill-attachment { /*dark mode attachment color*/
+	color: #1a356b;
+}
+.theme-light .graph-view.color-fill-attachment { /*light mode attachment color*/
+	color: #83D4F4;
+}
+.graph-view.color-fill-unresolved { /*unresolved(not created yet) notes*/
+	color: var(--text-muted);
+	opacity: 0.4;
+}
+.graph-view.color-arrow { /*arrow color*/
+	color: var(--text-normal);
+	opacity: 0.5;
+}
+.graph-view.color-circle { /*focused node border color*/
+	color: var(--text-normal);
+}
+.graph-view.color-line { /*link color*/
+	color: var(--background-modifier-border);
+}
+.graph-view.color-text { /*text color*/
+	color: var(--text-normal);
+}
+.graph-view.color-fill-highlight { /*focused node color*/
+	color: var(--interactive-accent);
+}
+.graph-view.color-line-highlight { /*focused node connections*/
+	color: var(--interactive-accent);
+}
+
+.graph-controls {} /*Graph Menu*/
