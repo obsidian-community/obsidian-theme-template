@@ -9,5 +9,4 @@ Press `Use this template` to use this template for your Obsidian theme!
 
 ## Theme Ready?
 - Replace the `promo_screenshot.png` with a screenshot of your theme.
-- Change the License, if you prefer a different one.
 - [How to add your theme to the community theme store](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store)
