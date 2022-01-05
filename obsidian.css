@@ -407,3 +407,11 @@ a.tag {} /*Reading Mode*/
 /*Embed Link*/
 .markdown-embed-link {}
 .file-embed-link {}
+
+
+/*--Footnotes--*/
+
+.markdown-preview-view .footnotes {} /*Reading View*/
+
+/*Reference Number in text*/
+.cm-s-obsidian span.cm-footref { /*Editing View*/
