@@ -72,6 +72,19 @@
     --scrollbar-thumb-bg: rgba(0, 0, 0, 0.1); /*Scrollbar Color*/
     --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2); /*Scrollbar Dragged Color*/
 }
+/*----Startup Progress Bar Screen----*/
+/*Startup Progress Bar Window*/
+.progress-bar {}
+
+/*Startup Text*/
+.progress-bar .progress-bar-message {}
+
+/*Startup Progress Bar Background*/
+.progress-bar-indicator .progress-bar-line {}
+
+/*Startup Progress Bar Moving Line*/
+.progress-bar-indicator .progress-bar-subline {}
+
 
 /*----Settings----*/
 /*All Popup Windows: Settings*/
@@ -91,6 +104,9 @@
 
 /*Community Themes Browser*/
 .community-theme {}
+
+/*Community Plugins Browser*/
+.community-plugin {}
 
 
 /*--Extras--*/
@@ -130,6 +146,28 @@
 
 /*Status Bar*/
 .status-bar {}
+
+/*--Title Bar--*/
+
+/*Title Bar*/
+.titlebar {}
+
+/*Navigation Button - Back */
+.mod-back {}
+
+/*Navigation Button - Forward*/
+.mod-forward {}
+
+/*Window Control- Minimize*/
+.mod-minimize {}
+
+/*Window Control- Minimize*/
+.mod-maximize {}
+
+/*Window Control- Close*/
+.mod-close {}
+
+
 
 /*Buttons*/
 /*Default Buttons*/
