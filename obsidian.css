@@ -442,10 +442,10 @@ a.tag {} /*Reading Mode*/
 .graph-view.color-fill-focused { /*color of focused node/note*/
 	color: #ffdd00;
 }
-.theme-dark .graph-view.color-fill-tag { /*light mode tag color*/
+.theme-dark .graph-view.color-fill-tag { /*dark mode tag color*/
 	color: #704214;
 }
-.theme-light .graph-view.color-fill-tag { /*dark mode tag color*/
+.theme-light .graph-view.color-fill-tag { /*light mode tag color*/
 	color: #E0D3AF;
 }
 .theme-dark .graph-view.color-fill-attachment { /*dark mode attachment color*/
