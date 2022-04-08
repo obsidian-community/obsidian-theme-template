@@ -479,3 +479,25 @@ a.tag {} /*Reading Mode*/
 }
 
 .graph-controls {} /*Graph Menu*/
+
+/* Cursor */
+.cm-cursorLayer .cm-cursor {
+	/* border-left: ... */
+}
+
+/* animation of the blinking */
+.cm-cursorLayer {
+	/* deactivate built-in animation from CodeMirror */
+	animation-name: none !important; /* important needed */
+}
+
+@keyframes phase-blink {
+	15% { opacity: 1 }
+	50% { opacity: 0 }
+	85% { opacity: 1 }
+}
+
+.cm-cursorLayer .cm-cursor {
+	animation-duration: 2200ms;
+	animation-name: phase-blink;
+}
