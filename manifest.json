@@ -1,8 +1,8 @@
 {
-   "name": "My Theme",
-   "version": "0.1.0",
-   "minAppVersion": "1.1.8",
-   "author": "yourname",
+	"name": "My Theme",
+	"version": "1.0.0",
+	"minAppVersion": "1.6.0",
+	"author": "My Name",
    "fundingUrl": "https://ko-fi.com/yourname",
    "authorUrl": "https://yoururl"
 }
