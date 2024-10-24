@@ -1,5 +1,9 @@
-# vscode
+# IDEs
 .vscode
+.idea
+
+# Git
+.git
 
 # npm
 node_modules
