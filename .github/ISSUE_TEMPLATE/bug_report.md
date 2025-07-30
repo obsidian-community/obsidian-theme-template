@@ -24,10 +24,6 @@ Steps to reproduce the behavior, e.g.
 - [ ] Source Mode
 - [ ] Live Preview
 
-**Which editor are you using?**
-- [ ] Legacy Editor
-- [ ] New Editor
-
 **Which version of Obsidian are you using?**
 - [ ] Public Release (Desktop)
 - [ ] Public Release (Mobile)
